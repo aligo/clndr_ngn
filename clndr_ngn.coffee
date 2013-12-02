@@ -6,12 +6,14 @@ class ClndrNgn
     if @month > 1
       @month -= 1
     else
+      @month = 12
       @year -= 1
 
   setNextMonth: ->
     if @month < 11
       @month += 1
     else
+      @month = 1
       @year += 1
 
   getDaysInMonth: ->
