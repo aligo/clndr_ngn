@@ -1,6 +1,12 @@
 {
   "name": "clndr_ngn",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "description": "Clndr Ngn -> Calendar Engine -> A backbone to create javascript calendar",
+  "license": "MIT",
+  "author": {
+    "name": "aligo Kang",
+    "email": "aligo_x@163.com"
+  },
   "main": "clndr_ngn.js",
   "ignore": []
 }
